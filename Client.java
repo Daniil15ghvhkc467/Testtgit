@@ -5,7 +5,7 @@ public class Client {
 
     public static void main(String[] args) throws IOException{
     Socket clientSocket = new Socket("127.0.0.1",8000);
-
+int a=5;
     OutputStreamWriter writer = new OutputStreamWriter(clientSocket.getOutputStream());
     BufferedReader reader = new BufferedReader(
         new InputStreamReader(
